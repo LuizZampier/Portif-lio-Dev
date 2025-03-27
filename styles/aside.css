@@ -1,0 +1,42 @@
+#my-services {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  flex-wrap: wrap;
+
+  gap: 5.6rem;
+
+  padding-top: 8.8rem;
+  padding-bottom: 12rem;
+
+  background-color: var(--gray-100);
+}
+
+#my-services div:nth-child(1) {
+  gap: .8rem;
+}
+
+#my-services div:nth-child(2) {
+  display: flex;
+  gap: 2.4rem;
+}
+
+#my-services section {
+  padding: 2rem;
+
+  border-radius: 1.2rem;
+  border: solid 1px var(--gray-300);
+
+  
+}
+
+#my-services section img {
+  padding-bottom: 2rem;
+}
+
+#my-services section div {
+  display: flex;
+  flex-direction: column;
+  gap: .8rem;
+}

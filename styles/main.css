@@ -1,0 +1,56 @@
+main {
+  background-color: var(--gray-200);
+
+  padding: 7.2rem 16.3rem 14.4rem;
+}
+
+#my-work div:nth-child(1) {
+  display: flex;
+  flex-direction: column;
+  gap: .8rem;
+}
+
+#works {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+
+  gap: 2.4rem;
+
+  padding-top: 5.6rem;
+
+  max-width: 204rem;
+}
+
+#works section {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+
+  background: var(--gray-300);
+
+  padding: 1.2rem;
+
+  border-radius: 1.2rem;
+
+  max-width: 33rem;
+}
+
+#works section:hover {
+  border: solid 1px var(--gray-400);
+  cursor: pointer;
+
+  
+}
+
+#works section div {
+  display: flex;
+  flex-direction: column;
+  gap: .8rem;
+
+}
+
+#works img {
+  border-radius: .8rem;
+}

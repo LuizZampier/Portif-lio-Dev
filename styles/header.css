@@ -1,0 +1,92 @@
+header {
+  
+  background-image: url(/assets/Background_Intro.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  padding-bottom: 5.7rem;
+}
+
+/* main-description */
+
+#main-description {
+  gap: 1rem;
+  
+  padding-top: 12rem;
+
+  max-width: 68rem;
+  width: 100%;
+}
+
+#dev-photo {
+  position: relative;
+  display: inline-block;
+}
+
+.dev {
+  display: block;
+  width: 10rem;
+  border-radius: 50%;
+
+  border: solid 4px var(--red);
+  padding: .4rem;
+}
+
+.code {
+  position: absolute;
+
+  bottom: 0;
+  right: 0;
+}
+
+#main-description h4{
+  padding-top: 5.6rem;
+}
+
+/* tech-used */
+
+#tech-used {
+  padding-top: 8.9rem;
+  padding-bottom: 9.4rem;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.6rem;
+}
+
+#tech-used section {
+  display: flex;
+  align-items: center;
+  gap: .8rem;
+
+  padding: .9rem 1.6rem;
+
+  background-color: var(--gray-300);
+  border-radius: 2.4rem;
+}
+
+#tech-used section:nth-child(2) img {
+  filter: invert(40%) sepia(71%) saturate(485%) hue-rotate(316deg) brightness(94%) contrast(90%);
+}
+
+#tech-used section:nth-child(3) img {
+  filter: invert(34%) sepia(89%) saturate(488%) hue-rotate(184deg) brightness(90%) contrast(88%);
+}
+
+#tech-used section:nth-child(4) img {
+  filter: brightness(0) saturate(100%) invert(79%) sepia(37%) saturate(647%) hue-rotate(349deg) brightness(97%) contrast(88%);
+}
+
+#tech-used section:nth-child(5) img {
+  filter: invert(34%) sepia(89%) saturate(488%) hue-rotate(184deg) brightness(90%) contrast(88%);
+}
+
+#tech-used section:nth-child(6) img {
+  filter: brightness(0) saturate(100%) invert(80%) sepia(37%) saturate(647%) hue-rotate(41deg) brightness(82%) contrast(87%);
+}
+
+#tech-used section p {
+  font: var(--text-md);
+  color: var(--gray-500);
+}
